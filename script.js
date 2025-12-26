@@ -145,3 +145,9 @@ function showSlides(n) {
 setInterval(() => {
   nextSlide();
 }, 5000); // Change slide every 5 seconds
+
+// Hamburger Menu Toggle
+function toggleMenu() {
+  const navMenu = document.querySelector('.nav-menu');
+  navMenu.classList.toggle('active');
+}
